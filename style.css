@@ -1,0 +1,60 @@
+#main{
+   /* border: 1px solid red;*/
+    width: 20%;
+    margin: 0 auto; 
+    padding-left: 10px;
+    padding-top: 30PX;
+    background-color: rgba(247, 246, 246, 0.815);
+    border: 1px solid rgba(240, 147, 147, 0.555);
+    box-shadow: 5px 5px 10px yellow;
+    
+
+}
+body{
+    background-image: url(./img/istockphoto-956454212-1024x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+input{
+    padding-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(150, 12, 12);
+    
+    
+}
+input:focus{
+    background-color: blanchedalmond;
+}
+h2{
+    text-align: center;
+}
+.button{
+    color:rgba(95, 158, 160, 0.938)
+    
+}
+.button:hover{
+    color: crimson;
+    font-size: large;
+cursor: pointer;
+}
+.select{
+    cursor: pointer;
+}
+input[type=Email]{
+    background-image: url(./img1/download.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+input[type=name]{
+    background-image:url(./img2/download\ \(1\).png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+input[type=password]{
+    background-image:url(./img4/images.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
